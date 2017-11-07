@@ -8,7 +8,6 @@
     tools:context="com.example.yajue.mbientlabsensorapp.MainActivity"
     tools:showIn="@layout/activity_main">
 
-<<<<<<< HEAD
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="0dp"
@@ -69,7 +68,6 @@
 
 
 
-=======
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,6 +75,5 @@
         android:id="@+id/connect"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
->>>>>>> 10b21230c8321cda0851d1585b48f8c3f1fbfd80
 
 </android.support.constraint.ConstraintLayout>
