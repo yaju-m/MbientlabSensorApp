@@ -8,6 +8,68 @@
     tools:context="com.example.yajue.mbientlabsensorapp.MainActivity"
     tools:showIn="@layout/activity_main">
 
+<<<<<<< HEAD
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center|bottom">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            style="?android:attr/buttonBarStyle"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_stream"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/ic_log" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            style="?android:attr/buttonBarStyle"
+            android:gravity="center|bottom">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_download" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/ic_diagnostic"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connect"
+            android:id="@+id/connect"
+            />
+    </LinearLayout>
+
+
+
+=======
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -15,5 +77,6 @@
         android:id="@+id/connect"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
+>>>>>>> 10b21230c8321cda0851d1585b48f8c3f1fbfd80
 
 </android.support.constraint.ConstraintLayout>
